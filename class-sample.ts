@@ -13,10 +13,11 @@ class Animal {
     }
 }
 
-// without a constructor
+// using default constructor
 //let lion: Animal = new Animal();
 //lion.name = 'Simba'
 
+// using parameter constructor
 let lion = new Animal('Simba')
 console.log(lion)
 
